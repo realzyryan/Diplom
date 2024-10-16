@@ -7,7 +7,7 @@
 - успешно пройденные - 30 тестов (50,00%)
 - не успешные - 30 тестов (50,00%)
 
-![Allure.png](C:\Users\User\Desktop\Netology\QA\Module3.Java\Diplom3)
+![Allure.png](https://github.com/realzyryan/Diplom/blob/main/Allure.png)
 
 Обнаруженные ошибки заведены в баг-репорт [Issues](https://github.com/realzyryan/Diplom/issues). 
 
