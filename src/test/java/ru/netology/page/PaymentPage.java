@@ -7,15 +7,16 @@ import java.time.Duration;
 
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
+import static com.codeborne.selenide.Selenide.$$;
 
 public class PaymentPage {
     private final SelenideElement buyButton = $(byText("Купить"));
     private final SelenideElement creditByButton = $(byText("Купить в кредит"));
-    private final SelenideElement cardNumberField = $(".input[placeholder='0000 0000 0000 0000']");
-    private final SelenideElement monthField = $(".input[placeholder='11']");
-    private final SelenideElement yearField = $(".input [placeholder='25']");
+    private final SelenideElement cardNumberField = $(".input [placeholder='0000 0000 0000 0000']");
+    private final SelenideElement monthField = $(".input [placeholder='08']");
+    private final SelenideElement yearField = $(".input [placeholder='22']");
     private final SelenideElement ownerField = $(byText("Владелец")).parent().$(".input__control");
-    private final SelenideElement cvc_cvvField = $(".input [placeholder='514']");
+    private final SelenideElement cvc_cvvField = $(".input [placeholder='999']");
     private final SelenideElement continueButton = $(byText("Продолжить"));
 
     private final SelenideElement notification = $("div.notification_visible  div.notification__content");
